@@ -20,5 +20,7 @@ document.getElementById('boton-sorteo').addEventListener('click', function() {
 function mostrarGanador(participantes) {
     const ganador = participantes[Math.floor(Math.random() * participantes.length)];
     const infoDiv = document.getElementById('ganador-info');
-    infoDiv.textContent = `Ganador: ${ganador.Nombre} - Cargo: ${ganador.Cargo}`;
+    const infoDiv2 = document.getElementById('ganador-info2');
+    infoDiv.textContent = `Nombre: ${ganador.Nombre}`;
+    infoDiv2.textContent =  `Cargo: ${ganador.Cargo}`;
 }
