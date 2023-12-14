@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.main {
+    width: 80%;
+    height: auto; /* Ajuste para que la altura se adapte al contenido */
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem; /* Espacio entre elementos */
+}
+
+.container img {
+    max-width: 80%; /* Asegura que el logo se ajuste al contenedor */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; /* Espacio entre botones */
+}
+
+#ganador-info {
+    display: flex;
+    margin-top: 0rem; /* Espacio antes de los resultados */
+    border-radius: 1px #000;
+}
+
+#boton-sorteo {
+    background-color: #050d2b; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+#boton-sorteo:hover {
+    background-color: #073e6f; /* Color de fondo al pasar el ratón por encima */
+}
+
+.boton-archivo {
+    background-color: #050d2b; /* Color de fondo */
+    color: white; /* Color de la letra */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de letra */
+    cursor: pointer; /* Cursor en forma de mano al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    display: inline-block; /* Para que se comporte como un botón */
+}
+
+.boton-archivo:hover {
+    background-color: #073e6f; /* Color de fondo al pasar el ratón por encima */
+}
+
+
+
+
+
+
+

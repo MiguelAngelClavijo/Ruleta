@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo de la Empresa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <img src="logo-empresa.png" alt="Logo de la Empresa" id="logo-empresa">
+        </div>
+        <div class="buttons">
+            <input type="file" id="input-excel" accept=".xlsx, .xls" style="display: none;" />
+            <label for="input-excel" class="boton-archivo">Seleccionar Archivo</label>
+            <button id="boton-sorteo">Sortear Ganador</button>
+        </div>
+        <div id="ganador-info">
+            <!-- La información del ganador se mostrará aquí -->
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
